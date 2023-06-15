@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    background-color: rgb(62, 78, 78);
+}
+
+nav>ul{
+    display: flex;
+}
+
+nav>ul>a{
+    text-decoration: none;
+}
+
+nav>ul>a>li{
+    margin: 20px;
+    font-size : 20px;
+    cursor: pointer;
+    color : white;
+}
+
+main{
+    margin: 0 auto;
+    width: 490px;
+    min-height: 75vh;
+}
+
+section{
+    padding: 20px 0;
+}
+
+section>h1{
+    text-align: center;
+    font-size: 30px;
+    padding : 5px;
+}
+
+section>p{
+    text-align: center;
+}
+
+#set_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section input[type="text"]{
+    padding: 5px;
+    width: 80%;
+}
+
+section .add_button{
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#list_contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_ui{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    padding: 10px 20px;
+    border-bottom: rgb(192, 201, 201) solid 1px;
+    cursor: pointer;
+}
+
+.list_ui:hover{
+    background-color: rgb(228, 228, 228) ;
+}
+
+.list_id{
+    display: none;
+}
+
+.delete_button{
+    font-size : 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(34, 28, 56);
+    height: 200px;
+}
+
+footer>p{
+    color : white;
+    padding: 2em;
+}
